@@ -9,8 +9,4 @@ function multiplicationTable(tamanho) {
     arr[i] = linha;
   }
   console.table(arr);
-  for (let i = 0; i <= tamanho; i++) {
-    console.log(arr[i][4]);
-  }
-  return arr;
 }
