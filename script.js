@@ -10,3 +10,8 @@ function multiplicationTable(tamanho) {
   }
   console.table(arr);
 }
+
+function calculaTabela() {
+  const numero = document.getElementById("numero").value;
+  multiplicationTable(numero);
+}
